@@ -110,11 +110,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: TestMentaleWidget.routeName,
           path: TestMentaleWidget.routePath,
           builder: (context, params) => TestMentaleWidget(),
-        ),
-        FFRoute(
-          name: AdminDashboardWidget.routeName,
-          path: AdminDashboardWidget.routePath,
-          builder: (context, params) => AdminDashboardWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

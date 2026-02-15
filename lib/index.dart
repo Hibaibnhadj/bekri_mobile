@@ -5,4 +5,3 @@ export '/pages/home_page_copy/home_page_copy_widget.dart'
 export '/sign_up/sign_up_widget.dart' show SignUpWidget;
 export '/signin/signin_widget.dart' show SigninWidget;
 export '/test_mentale/test_mentale_widget.dart' show TestMentaleWidget;
-export '/admin_dashboard/admin_dashboard_widget.dart' show AdminDashboardWidget;
